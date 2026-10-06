@@ -24,10 +24,11 @@
 Проект использует изолированное Conda-окружение для гарантии совместимости всех библиотек.
 
  Шаг 1: Клонирование репозитория
-
+``` bash
 git clone https://github.com/nofriendsatall/video_analytics.git
 cd video_analytics
 conda activate dino-boxmot
+```
 
 Архитектура работы скрипта:
 Инициализация: Загрузка модели Grounding DINO на выбранное устройство (CUDA/CPU) и инициализация выбранного трекера.
